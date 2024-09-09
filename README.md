@@ -192,7 +192,7 @@ Figure 3: Outliers in the income dataset’s 'New South Wales' attribute.
 style="width:4.25409in;height:3.4948in"
 alt="Chart, box and whisker chart Description automatically generated" />
 
-Figure 2: Outliers in the 'Victoria' attribute of the migration dataset.
+Figure 4: Outliers in the 'Victoria' attribute of the migration dataset.
 
 Reserving the extreme values in both datasets as they explain an
 elevated number of families’ earnings and a rise in immigration to
@@ -212,14 +212,14 @@ and numeric attributes.
 style="width:6.26806in;height:2.57708in"
 alt="Chart, bar chart Description automatically generated" />
 
-Figure 3: Distribution of data points using bar plots of family\_status
+Figure 5: Distribution of data points using bar plots of family\_status
 and income\_bracket attributes of income dataset.
 
 <img src="./attachments/projectreadme/media/image13.png"
 style="width:3.45778in;height:2.66019in"
 alt="Chart, box and whisker chart Description automatically generated" />
 
-Figure 4: Distribution of the average number of migrants for 3 censuses
+Figure 6: Distribution of the average number of migrants for 3 censuses
 from 2011 until 2021 of migration dataset.
 
 b\) Pie graphs to show the composition of values of the attributes.
@@ -228,7 +228,7 @@ b\) Pie graphs to show the composition of values of the attributes.
 style="width:6.26806in;height:1.46806in"
 alt="Chart, pie chart Description automatically generated" />
 
-Figure 5: Composition of data points using pie plots of different
+Figure 7: Composition of data points using pie plots of different
 income\_brackets for 3 censuses of the income dataset.
 
 c\) Scatter graphs for identifying the relationship between various
@@ -238,7 +238,7 @@ numeric and categorical attributes.
 style="width:6.26806in;height:1.65903in"
 alt="Chart, bubble chart Description automatically generated" />
 
-Figure 6: Scatter plot showing immigrants settling in different states
+Figure 8: Scatter plot showing immigrants settling in different states
 of Australia from across the globe during census 2021.
 
 d\) Pair plots, associating best attributes while describing a
@@ -248,7 +248,7 @@ relationship.
 style="width:6.26806in;height:5.57014in"
 alt="Graphical user interface, Excel Description automatically generated" />
 
-Figure 7: Pair plot identifying best columns for explaining a
+Figure 9: Pair plot identifying best columns for explaining a
 relationship of attributes of income dataset.
 
 Please refer to sections 8.1 and 8.2 of the iPython notebook (or pdf
