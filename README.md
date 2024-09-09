@@ -1,6 +1,4 @@
-Gathering Creative Insights about Australia by analysing Australian
-Bureau of Statistics (ASB) Census Data (from 2011 until 2021)Utilising
-Data Analysis and Visualization Techniques.
+# Gathering Creative Insights about Australia by analysing Australian Bureau of Statistics (ASB) Census Data (from 2011 until 2021)Utilising Data Analysis and Visualization Techniques.
 
 **<u>Project Overview</u>**
 
@@ -289,14 +287,40 @@ detailed observations using various data visualization plots.
 
 -   Matplotlib
 
-> **Techniques Employed**
+**Techniques Employed**
 
 -   Exploratory Data Analysis with Python Programming Features
 
 -   Data Visualisation
 
-> **Kindly review the information from**
+**Kindly review the information from**
 
 -   Detailed Analysis Python Notebook -&gt; under analysis directory
 
 -   Analysis Report -&gt; under report Directory
+
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── attachments        <- Images and diagrams form README.md
+    │
+    ├── notebooks          <- Data-Analysis-Visualization-On-ABS-Census-Data.ipynb                                        
+    │
+    ├── reports            <- Data-Analysis-Visualization-On-ABS-Census-Data.pdf
+    │                      <- Final Project Report.pdf
+    │
+    └── requirements.txt   <- The requirements file for reproducing the analysis environment, 
+                              e.g. generated with `pip freeze > requirements.txt`
+
+
