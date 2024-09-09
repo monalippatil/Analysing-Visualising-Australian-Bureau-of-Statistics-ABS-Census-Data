@@ -1,6 +1,6 @@
 # Gathering Creative Insights about Australia by analysing Australian Bureau of Statistics (ASB) Census Data (from 2011 until 2021)Utilising Data Analysis and Visualization Techniques.
 
-**<u>Project Overview</u>**
+##  **<u>Project Overview</u>**
 
 The Australian Bureau of Statistics (ASB) is a National Organization of
 Australia which collects and provides authentic, dependable data-facts
@@ -18,7 +18,7 @@ downloaded from Census year 2011 until 2021 and are available at ASB
 Data packs:
 https://www.abs.gov.au/census/find-censusdata/datapacks?release=2021&product=GCP&geography=ALL&header=S
 
-**Business Problem**
+### **Business Problem**
 
 Analyse the evolution of Australia as a nation relating to features like
 families/person’s income, and migration (foreign born) from different
@@ -26,7 +26,7 @@ countries from 2011 until 2021. Also, investigate if any trends
 highlighting the significance of the country and impacting how it has
 changed.
 
-**Business Question**
+### **Business Question**
 
 The analysis will cover below (the period of 3 censuses 2011, 2016 and
 2021):
@@ -53,7 +53,7 @@ Migration:
 -   Is there any noticeable trend in immigration from various countries
     around the world?
 
-**<u>Datasets</u>**
+## **<u>Datasets</u>**
 
 The ASB dataset consists of comprehensive (aggregated) data in multiple
 files about numerous features. The below figure shows the original files
@@ -88,7 +88,7 @@ style="width:6.66142in;height:0.82283in" />
 
 Table 3: The above are sample of 5 rows from the migration dataset
 
-**<u>Data Preparation</u>**
+## **<u>Data Preparation</u>**
 
 The data read from the ASB source is in aggregated form to deidentify
 people for privacy purposes, so it was essential to prepare the income
@@ -152,7 +152,7 @@ statistical methods (describe) are used to understand the data points
 information of both datasets. Please check the 1<sup>st</sup>,
 2<sup>nd</sup> and 6<sup>th</sup> sections of the iPython notebook.
 
-**Missing Value Exploration**
+### **Missing Value Exploration**
 
 <img src="./attachments/projectreadme/media/image8.png"
 style="width:3.86774in;height:4.14862in"
@@ -172,7 +172,7 @@ The income dataset doesn’t have any missing values, however, there are
 missing values in the iso\_code (abbreviations of countries) attribute
 of the migration dataset and would only be used to generate a world map.
 
-**Outlier Identification**
+### **Outlier Identification**
 
 The outliers in the numeric attributes of the income and migration
 dataset involve the number of families’ earnings (in various salary
@@ -198,7 +198,7 @@ Reserving the extreme values in both datasets as they explain an
 elevated number of families’ earnings and a rise in immigration to
 different states of Australia from 2011 until 2021.
 
-**<u>Data Analysis and Visualisation</u>**
+## **<u>Data Analysis and Visualisation</u>**
 
 Section 8 from the iPython notebook (or pdf result) describes and
 explains different data visualization graphs for various purposes. Below
@@ -255,9 +255,9 @@ Please refer to sections 8.1 and 8.2 of the iPython notebook (or pdf
 result) for detailed data visualization presenting information and
 insights about income and migration datasets respectively.
 
-**<u>Conclusion</u>**
+## **<u>Conclusion</u>**
 
-**Income:**
+### **Income:**
 
 NSW, Victoria and Queensland are the top states where the highest number
 of salaried workers reside. While the ratio of single-parent families'
@@ -268,7 +268,7 @@ number of families' earnings in various income groups was almost similar
 in the 2011 and 2016 censuses as compared, in 2021 majority of the
 families' income earners are from higher income brackets.
 
-**Migration:**
+### **Migration:**
 
 During the period from 2011 until 2021, a large number of migrants are
 from China and India. NSW, Victoria and Queensland are the top choices
@@ -281,19 +281,19 @@ favourite destination for people migrating from New Zealand.
 Please check section 8th of the iPython notebook (or pdf result) for
 detailed observations using various data visualization plots.
 
-**Prerequisites**
+## **Prerequisites**
 
 -   Python 3.7+
 
 -   Matplotlib
 
-**Techniques Employed**
+## **Techniques Employed**
 
 -   Exploratory Data Analysis with Python Programming Features
 
 -   Data Visualisation
 
-**Kindly review the information from**
+## **Kindly review the information from**
 
 -   Detailed Analysis Python Notebook -&gt; under analysis directory
 
